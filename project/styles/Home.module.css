@@ -3,11 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1500px;
+  height: auto;
+  position: relative;
 }
 
 .textarea {
-  height: 500px;
+  height: 300px;
   width: 100%;
 
   position: absolute;
@@ -28,6 +29,14 @@
   bottom: 400px;
   font-size: 50px;
   left: 100px;
+}
+
+.midlle{
+  width: 800px;
+  height: 800px;
+  background-color: #FFF;
+  
+  
 }
 
 .slideshow {
